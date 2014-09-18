@@ -1,0 +1,28 @@
+#screen {
+  display: table;
+  height: 100px;
+  width: 300px;
+  background-color: rgb(150,214,181);
+  border: 10px;
+  border-color: black;
+}
+
+#input{
+  display: table-cell;
+  font-size: 40px;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+#buttons {
+  background-color: gray;
+  height: 400px;
+  width: 300px;
+}
+
+#buttons button {
+  background-color: blue;
+  height: 90px;
+  margin: 5px;
+  width: 90px;
+}
