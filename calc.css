@@ -1,28 +1,82 @@
+
+/*shitty not doing whqt I want styling*/
+#calculator {
+	text-align: center;
+	top: 25%;
+	width: 400px;
+	height: 610px;
+	margin: 0 auto;
+	border: 5px;
+	border-style: outset;
+	border-color: blue;
+}
+
+/*good enough for now styling*/
+
 #screen {
-  display: table;
-  height: 100px;
-  width: 300px;
-  background-color: rgb(150,214,181);
-  border: 10px;
-  border-color: black;
+	display: table;
+	height: 100px;
+	width: 400px;
+	background-color: rgb(150,214,181);
+	border: 10px;
+	border-color: black;
 }
 
 #input{
-  display: table-cell;
-  font-size: 40px;
-  text-align: right;
-  vertical-align: bottom;
+	display: table-cell;
+	font-size: 40px;
+	text-align: right;
+	vertical-align: bottom;
 }
 
 #buttons {
-  background-color: gray;
-  height: 400px;
-  width: 300px;
+	float: left;
+	background-color: gray;
+	height: 400px;
+	width: 300px;
+	border-top: black solid 10px;
 }
 
-#buttons button {
-  background-color: blue;
-  height: 90px;
-  margin: 5px;
-  width: 90px;
+#operatorButtons {
+	float:left;
+	background-color: gray;
+	height: 400px;
+	width: 100px;
+	border-top: black solid 10px;
+	clear
 }
+
+#operatorButtons2 {
+	display:inline-block;
+	background-color: gray;
+	height: 100px;
+	width: 400px;
+	float:left;
+}
+
+button {
+	background-color: rgb(20,52,196);
+	height: 90px;
+	margin: 5px;
+	width: 90px;
+	font-size: 40px;
+	border-style: outset;
+	border-color: rgb(140,235,240);
+}
+
+button:hover {
+	background-color: rgb(20,52,150);
+	border-style: outset;
+	border-color: rgb(140,235,240);
+}
+
+button:active {
+	background-color: rgb(20,52,150);
+	border-style: inset;
+	border-color: rgb(140,235,240);
+}
+
+#operatorButtons2 button:nth-child(3n+0) {
+	width:190px;
+
+};
